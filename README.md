@@ -5,7 +5,8 @@ designed by [hsgw](https://github.com/hsgw/plaid).
 
 ### PCB/Electronic Parts
 
-Check the BOM for details.
+Check the [BOM](https://github.com/stephen-huan/plaid/blob/master/plaid_bom.md)
+for details.
 Upload `plaid_top.zip` and `plaid_bottom.zip` to [JLCPCB](https://jlcpcb.com/).
 Zip files (Gerber) were generated according to the instructions
 [here](https://support.jlcpcb.com/article/44-how-to-export-kicad-pcb-to-gerber-files).
@@ -48,4 +49,9 @@ Upload `plate/GRID_planck_hipro.dxf` to [sendcutsend](https://sendcutsend.com/).
 Recommended material is 5052 Aluminium, 1.6mm thick.
 
 ## Pictures
+
+Completed Plaid without acrylic guard or plate, and with old fuse component.
+![plaid.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plaid.png?raw=true "completed Plaid")
+Plaid PCB with new fuse.
+![pcb.png](https://github.com/stephen-huan/plaid/blob/master/pictures/pcb.png?raw=true "PCB picture")
 
