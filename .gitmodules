@@ -1,0 +1,3 @@
+[submodule "plaid"]
+	path = plaid
+	url = https://github.com/hsgw/plaid

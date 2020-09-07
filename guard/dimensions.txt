@@ -1,0 +1,6 @@
+228mm wide, 22mm tall
+220mm horz. distance between screw hole centers
+ 14mm vert. distance between screw hole centers
+m2 screw hole diameter: 2.2 close, 2.4 normal, 2.6 loose
+5.657 at a 45 degree angle -> screw hole is 4mm from both edges
+

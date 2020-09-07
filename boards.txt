@@ -1,0 +1,29 @@
+
+##############################################################
+
+plaid.name=Plaid Keyboard
+
+# don't need arduino stuff
+# plaid.upload.tool=avrdude
+# plaid.upload.protocol=arduino
+# plaid.upload.maximum_size=30720
+# plaid.upload.speed=57600
+
+plaid.bootloader.tool=avrdude
+# FUSEOPT_328             = -U lfuse:w:0xd7:m -U hfuse:w:0xd0:m -U efuse:w:0x04:m (155)
+plaid.bootloader.low_fuses=0xD7
+plaid.bootloader.high_fuses=0xD0
+plaid.bootloader.extended_fuses=0x04
+# LOCKOPT = -U lock:w:0x3f:m (44)
+plaid.bootloader.unlock_bits=0x3F
+plaid.bootloader.lock_bits=0x0F
+plaid.bootloader.file=plaid/plaid.hex
+
+# DEVICE = atmega328p (9)
+plaid.build.mcu=atmega328p
+# F_CPU = 16000000 (8)
+plaid.build.f_cpu=16000000L
+# don't need arduino stuff
+plaid.build.core=plaid
+plaid.build.variant=plaid
+
