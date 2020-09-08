@@ -1,6 +1,6 @@
 # Plaid Keyboard
 
-The Plaid keyboard is a 40% ortholinear made from through hole parts
+The Plaid keyboard is a 40% ortholinear made from through hole parts, and is
 designed by [hsgw](https://github.com/hsgw/plaid).
 
 ### PCB/Electronic Parts
@@ -40,13 +40,17 @@ Alternatively, run the provided fish script (be sure to change the paths).
 [Video guide](https://www.youtube.com/watch?v=pyH5Hi-ujLw)
 
 ### Acrylic Guard
-Order from [ponoko](https://www.ponoko.com/).
+Upload `guard/guard.dxf` to [ponoko](https://www.ponoko.com/).
 Recommended material is Clear Impact Modified Acrylic, 2.0mm thick.
-
+Guard prototype designed by [Udbhav Muthakana](https://github.com/udbhav1),
+polished by [me](https://github.com/stephen-huan).
 
 ### Plate
 Upload `plate/GRID_planck_hipro.dxf` to [sendcutsend](https://sendcutsend.com/).
 Recommended material is 5052 Aluminium, 1.6mm thick.
+DXF file taken from [LaserBoost](https://www.laserboost.com/plates-planck),
+the Planck Grid Hi-Pro plate. The Planck is a different PCB, but the dimensions
+and screw hole placement are the same.
 
 ## Pictures
 
