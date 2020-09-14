@@ -40,13 +40,13 @@ Alternatively, run the provided fish script (be sure to change the paths).
 [Video guide](https://www.youtube.com/watch?v=pyH5Hi-ujLw)
 
 ### Acrylic Guard
-Upload `guard/guard.dxf` to [ponoko](https://www.ponoko.com/).
+Upload `guard/guard.dxf` to [Ponoko](https://www.ponoko.com/).
 Recommended material is Clear Impact Modified Acrylic, 2.0mm thick.
 Guard prototype designed by [Udbhav Muthakana](https://github.com/udbhav1),
 polished by [me](https://github.com/stephen-huan).
 
 ### Plate
-Upload `plate/GRID_planck_hipro.dxf` to [sendcutsend](https://sendcutsend.com/).
+Upload `plate/GRID_planck_hipro.dxf` to [SendCutSend](https://sendcutsend.com/).
 Recommended material is 5052 Aluminium, 1.6mm thick.
 DXF file taken from [LaserBoost](https://www.laserboost.com/plates-planck),
 the Planck Grid Hi-Pro plate. The Planck is a different PCB, but the dimensions
@@ -57,5 +57,11 @@ and screw hole placement are the same.
 Completed Plaid without acrylic guard or plate, and with old fuse component.
 ![plaid.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plaid.png?raw=true "completed Plaid")
 Plaid PCB with new fuse.
-![pcb.png](https://github.com/stephen-huan/plaid/blob/master/pictures/pcb.png?raw=true "PCB picture")
+![pcb.png](https://github.com/stephen-huan/plaid/blob/master/pictures/pcb.png?raw=true "PCB")
+Plate from SendCutSend.
+![plate.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plate.png?raw=true "Plate")
+Fits onto the Plaid PCB although it's a Planck plate!
+![alignment.png](https://github.com/stephen-huan/plaid/blob/master/pictures/alignment.png?raw=true "Plate")
+Soldered switches
+![completed.png](https://github.com/stephen-huan/plaid/blob/master/pictures/completed.png?raw=true "Soldered")
 

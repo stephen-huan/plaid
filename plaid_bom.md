@@ -29,6 +29,12 @@
 
 ## Not included
 - 48 PCB mount switches
-    - I recommend Kailh box crystal jades from [NovelKeys](https://novelkeys.xyz/products/box-crystal-switches?variant=31800542036061) 
+    - I recommend Kailh box crystal jades from [NovelKeys](https://novelkeys.xyz/products/box-crystal-switches?variant=31800542036061)
+    - If using linears, lube with [Krytox 205g0](https://novelkeys.xyz/products/lubricants),
+[paintbrush](https://www.amazon.com/Princeton-Artist-Brush-Synthetic-Spotter/dp/B0043GCYTW),
+[tweezers](https://www.amazon.com/Hakko-3-SA-Non-Magnetic-Microelectronics-Applications/dp/B00FZPEWI6)
+    - [Lube guide](https://topclack.com/textclack/2018/9/17/the-switch-lab-a-living-switch-modification-guide),
+[video](https://www.youtube.com/watch?v=qSgPKPoFo2k),
+[choosing lube](https://switchandclick.com/2020/01/22/what-lube-to-use-for-mechanical-keyboard-switches/)
 - [USB miniB cable](https://www.amazon.com/gp/product/B00NH13S44?psc=1)
 
