@@ -22,7 +22,7 @@
 |         | Y1              | 1       | 16MHz         |                                                 | [Mouser](https://www.mouser.com/ProductDetail/449-LFXTAL058383BULK)               |
 |         | Screw           | 14      | M2 8mm        |                                                 | [Amazon](https://www.amazon.com/gp/product/B000NHXO1M?psc=1)                      |
 |         | Nut             | 26      | M2            |                                                 | [Amazon](https://www.amazon.com/dp/B07H3VBRL6)                                    |
-|         | Spacer          | 4       | M2 10mm       |                                                 | [Amazon](https://www.amazon.com/gp/product/B07B9X1KY6?psc=1)                      |
+|         | Spacer          | 4       | M2 10mm       |                                                 | [Amazon](https://www.amazon.com/dp/B0854BNKZP)                                    |
 |         | Rubber Feet     | 4       |               |                                                 | [Amazon](https://www.amazon.com/Scotch-Bumpers-Pack-Clear-SP950-NA/dp/B01N922DLO) |
 |         | PCB             | 1       | MAIN PCB      |                                                 | [JLCPCB](https://jlcpcb.com/)                                                     |
 |         | PCB             | 1       | BOTTOM PCB    |                                                 | [Guide](http://www.40percent.club/2017/03/ordering-pcb.html)                      |
@@ -37,4 +37,8 @@
 [video](https://www.youtube.com/watch?v=qSgPKPoFo2k),
 [choosing lube](https://switchandclick.com/2020/01/22/what-lube-to-use-for-mechanical-keyboard-switches/)
 - [USB miniB cable](https://www.amazon.com/gp/product/B00NH13S44?psc=1)
+
+Alternative mounting strategy:
+using [3mm M2 screws](https://www.amazon.com/gp/product/B082XY64TB?psc=1)
+and [3mm M2 spacer](https://www.amazon.com/gp/product/B07H3SND59?psc=1) 
 

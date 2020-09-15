@@ -52,10 +52,39 @@ DXF file taken from [LaserBoost](https://www.laserboost.com/plates-planck),
 the Planck Grid Hi-Pro plate. The Planck is a different PCB, but the dimensions
 and screw hole placement are the same.
 
+What are the advantages of using a plate?
+
+1. Switches are aligned, so everything is nice and straight.
+2. Flex is noticeably reduced (without a plate, pressing down will bend
+the PCB. With a plate, the plate absorbs most of the force).
+3. Dust and other particulate accumulates on the plate instead of the PCB.
+
+### Putting it Together
+
+There are two main ways to attach the top PCB to the bottom PCB.
+One is the way described in the Plaid
+[build guide](https://github.com/hsgw/plaid/blob/master/doc/en/complete.md),
+which takes advantage of the fact that a M2 nut is 1.6mm high, and so is the
+PCB. Thus, 2 PCBs and 3 nuts are exactly 5*1.6mm = 8mm high.
+So a 8mm M2 screw inserted from the top of the top PCB, two nuts between it and
+the bottom PCB, and then fastened with the final nut will exactly fit.
+However, in my experience, the nuts fall out.
+
+A different way to attach the two PCBs together is with a 3mm spacer.
+2*1.6mm + 3mm = 6.2mm, so the screws have to be less than 3mm long.
+See the photo for how the setup works.
+First, insert one 3mm screw from the top of the top PCB, and screw the spacer
+onto it. Then, screw another 3mm screw from the bottom of the bottom PCB into
+the existing spacer and it will fasten.
+
+![side.png](https://github.com/stephen-huan/plaid/blob/master/pictures/side.png?raw=true "Side profile")
+
 ## Pictures
 
 Completed Plaid without acrylic guard or plate, and with old fuse component.
-![plaid.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plaid.png?raw=true "completed Plaid")
+Notice the alignment problems (right space is higher than left space,
+"j" key (ま on the Hiragana keycaps) is also higher than its surroundings).
+![plaid.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plaid.png?raw=true "Completed Plaid")
 Plaid PCB with new fuse.
 ![pcb.png](https://github.com/stephen-huan/plaid/blob/master/pictures/pcb.png?raw=true "PCB")
 Plate from SendCutSend.
