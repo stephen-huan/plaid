@@ -86,7 +86,7 @@ Notice the alignment problems (right space is higher than left space,
 "j" key (ま on the Hiragana keycaps) is also higher than its surroundings).
 ![plaid.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plaid.png?raw=true "Completed Plaid")
 Completed Plaid with plate. Notice the better alignment.
-![plate_done.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plaid_done.png?raw=true "Completed Plaid with plate")
+![plate_done.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plate_done.png?raw=true "Completed Plaid with plate")
 Plaid PCB with new fuse.
 ![pcb.png](https://github.com/stephen-huan/plaid/blob/master/pictures/pcb.png?raw=true "PCB")
 Plate from SendCutSend.
