@@ -39,6 +39,21 @@ Alternatively, run the provided fish script (be sure to change the paths).
 
 [Video guide](https://www.youtube.com/watch?v=pyH5Hi-ujLw)
 
+### EEPROM
+
+If your keyboard has swapped keys for seemingly no reason,
+especially if you're using the default Plaid keymap,
+you may have set the EEPROM, the read-only memory storage for the
+microprocessor. To reset the EEPROM, enter bootloader mode
+and run the following commands:
+```bash
+dfu-programmer atmega328p erase
+dfu-programmer atmega328p flash --eeprom eeprom_reset.hex
+```
+
+`eeprom_reset.hex` was taken from the
+[QMK toolbox](https://raw.githubusercontent.com/qmk/qmk_toolbox/3d7c9b4c32f1bb7db49e4b0c2a65859fca20bd27/common/atmega32u4_eeprom_reset.hex).
+
 ### Acrylic Guard
 Upload `guard/guard.dxf` to [Ponoko](https://www.ponoko.com/).
 Recommended material is Clear Impact Modified Acrylic, 2.0mm thick.
@@ -85,13 +100,9 @@ Completed Plaid without acrylic guard or plate, and with old fuse component.
 Notice the alignment problems (right space is higher than left space,
 "j" key (ま on the Hiragana keycaps) is also higher than its surroundings).
 ![plaid.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plaid.png?raw=true "Completed Plaid")
-Completed Plaid with plate. Notice the better alignment.
+Completed Plaid with plate. Notice the better alignment and the new fuse.
 ![plate_done.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plate_done.png?raw=true "Completed Plaid with plate")
-Plaid PCB with new fuse.
-![pcb.png](https://github.com/stephen-huan/plaid/blob/master/pictures/pcb.png?raw=true "PCB")
-Plate from SendCutSend.
-![plate.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plate.png?raw=true "Plate")
-Fits onto the Plaid PCB although it's a Planck plate!
+Plate from SendCutSend fits onto the Plaid PCB although it's a Planck plate!
 ![alignment.png](https://github.com/stephen-huan/plaid/blob/master/pictures/alignment.png?raw=true "Plate")
 Soldered switches
 ![completed.png](https://github.com/stephen-huan/plaid/blob/master/pictures/completed.png?raw=true "Soldered")

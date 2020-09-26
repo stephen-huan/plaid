@@ -7,8 +7,8 @@
 | 100nF   | C4, C5          | 2       | 100n          | Multi layer ceramic capacitor (5mm pitch)       | [Mouser](https://www.mouser.com/ProductDetail/81-RDER71H104K0M1H3A)               |
 | 1N4148  | D1-48           | 48      | 1N4148        | General-purpose diode (DO-35)                   | [Mouser](https://www.mouser.com/ProductDetail/512-1N4148TR)                       |
 | 3.6V    | D49, D50        | 2       | 3.6V          | 3.6V zener diode (DO-35)                        | [Mouser](https://www.mouser.com/ProductDetail/78-TZX3V6A)                         |
-| fuse    | F1              | 1       | 100mA         | Resettable fuse (5mm pitch)                     | [Mouser](https://www.mouser.com/ProductDetail/652-CMF-RL25-0)                     |
-|         |                 |         |               | Alternative (untested fuse)                     | [Mouser](https://www.mouser.com/ProductDetail/504-PTR060V0010-BK)                 |
+| fuse    | F1              | 1       | 100mA         | Resettable fuse (5mm pitch)                     | [Mouser](https://www.mouser.com/ProductDetail/504-PTR060V0010-BK)                 |
+|         |                 |         |               | Alternative fuse                                | [Mouser](https://www.mouser.com/ProductDetail/652-CMF-RL25-0)                     |
 | USB     | J1              | 1       | USB MINI-B    | USB miniB connector                             | [Mouser](https://www.mouser.com/ProductDetail/538-54819-0519)                     |
 | 2x3     | J2              | 1       | 02x03         | AVR ISP pin header                              | [Mouser](https://www.mouser.com/ProductDetail/649-68602-406HLF)                   |
 | LED     | LED1,2          | 2       | RED, GREEN    | 3mm LED                                         | [Mouser](https://www.mouser.com/ProductDetail/859-LTL-4222)                       |
