@@ -101,7 +101,7 @@ Notice the alignment problems (right space is higher than left space,
 ![plaid.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plaid.png?raw=true "Completed Plaid")
 Completed Plaid with aluminium plate from SendCutSend
 and acrylic guard from Ponoko. Notice the better alignment and the new fuse.
-![plaid_full.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plaid_full.png?raw=true "Completed Plaid with plate")
+![plaid_full.jpg](https://github.com/stephen-huan/plaid/blob/master/pictures/plaid_full.jpg?raw=true "Completed Plaid with plate")
 Plate fits onto the Plaid PCB although it's a Planck plate!
 Soldered switches.
 ![completed.png](https://github.com/stephen-huan/plaid/blob/master/pictures/completed.png?raw=true "Soldered")
