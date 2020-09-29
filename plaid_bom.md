@@ -39,6 +39,6 @@
 - [USB miniB cable](https://www.amazon.com/gp/product/B00NH13S44?psc=1)
 
 Alternative mounting strategy:
-using [3mm M2 screws](https://www.amazon.com/gp/product/B082XY64TB?psc=1)
+using [3mm M2 screws](https://www.amazon.com/gp/product/B00W96Z5RQ?psc=1)
 and [3mm M2 spacer](https://www.amazon.com/gp/product/B07H3SND59?psc=1) 
 

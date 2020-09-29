@@ -43,9 +43,8 @@ Alternatively, run the provided fish script (be sure to change the paths).
 
 If your keyboard has swapped keys for seemingly no reason,
 especially if you're using the default Plaid keymap,
-you may have set the EEPROM, the read-only memory storage for the
-microprocessor. To reset the EEPROM, enter bootloader mode
-and run the following commands:
+you may have written to the EEPROM, read-only memory for the microprocessor.
+To reset the EEPROM, enter bootloader mode and run the following commands:
 ```bash
 dfu-programmer atmega328p erase
 dfu-programmer atmega328p flash --eeprom eeprom_reset.hex
@@ -96,14 +95,14 @@ the existing spacer and it will fasten.
 
 ## Pictures
 
-Completed Plaid without acrylic guard or plate, and with old fuse component.
+Completed Plaid without acrylic guard or plate, and with an old fuse component.
 Notice the alignment problems (right space is higher than left space,
 "j" key (ま on the Hiragana keycaps) is also higher than its surroundings).
 ![plaid.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plaid.png?raw=true "Completed Plaid")
-Completed Plaid with plate. Notice the better alignment and the new fuse.
-![plate_done.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plate_done.png?raw=true "Completed Plaid with plate")
-Plate from SendCutSend fits onto the Plaid PCB although it's a Planck plate!
-![alignment.png](https://github.com/stephen-huan/plaid/blob/master/pictures/alignment.png?raw=true "Plate")
-Soldered switches
+Completed Plaid with aluminium plate from SendCutSend
+and acrylic guard from Ponoko. Notice the better alignment and the new fuse.
+![plaid_full.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plaid_full.png?raw=true "Completed Plaid with plate")
+Plate fits onto the Plaid PCB although it's a Planck plate!
+Soldered switches.
 ![completed.png](https://github.com/stephen-huan/plaid/blob/master/pictures/completed.png?raw=true "Soldered")
 
