@@ -3,6 +3,11 @@
 The Plaid keyboard is a 40% ortholinear made from through hole parts, and is
 designed by [hsgw](https://github.com/hsgw/plaid).
 
+Three part video guide:
+[[Part 1, introduction]](https://www.youtube.com/watch?v=B0NsSwLFeV4)
+[[Part 2, PCB and bootloader]](https://www.youtube.com/watch?v=xIaBSfZb_2U)
+[[Part 3, Switches and finish]](https://www.youtube.com/watch?v=NNLFTtYiXNg)
+
 ### PCB/Electronic Parts
 
 Check the [BOM](https://github.com/stephen-huan/plaid/blob/master/plaid_bom.md)
