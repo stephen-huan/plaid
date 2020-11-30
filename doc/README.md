@@ -1,4 +1,4 @@
-# Plaid // Through hole doc
+# Plaid // Through hole Documentation
 
 ## Assembly
 
@@ -8,7 +8,7 @@ first.
 
 1. [Check the BOM to get the necessary parts](./md/BOM.md)
 2. [Order a PCB](./md/pcb.md)
-3. [Order an acrylic guard](.md/guard.md)
+3. [Order an acrylic guard](./md/guard.md)
 4. [Order a plate](./md/plate.md)
 5. Solder the PCB according to the instructions in the original Plaid repository
 6. [Flash the bootloader with ArduinoISP](./md/bootloader.md)

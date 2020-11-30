@@ -28,7 +28,7 @@ Alternatively, run the provided
 [fish script](../../bootloader/plaid_arduino.fish)
 (be sure to change the paths).
 
-[Video guide](https://www.youtube.com/watch?v=pyH5Hi-ujLw)
+[[Video guide]](https://www.youtube.com/watch?v=pyH5Hi-ujLw)
 
 ### EEPROM
 
