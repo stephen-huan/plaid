@@ -10,11 +10,23 @@ Three part video guide:
 
 ### PCB/Electronic Parts
 
-Check the [BOM](https://github.com/stephen-huan/plaid/blob/master/plaid_bom.md)
+Check the
+[BOM](https://github.com/stephen-huan/plaid/blob/master/doc/plaid_bom.md)
 for details.
-Upload `plaid_top.zip` and `plaid_bottom.zip` to [JLCPCB](https://jlcpcb.com/).
-Zip files (Gerber) were generated according to the instructions
+
+Upload `gerber_plaid.zip` and `gerber_plaid_bottom.zip`
+to [JLCPCB](https://jlcpcb.com/).
+Gerber files were generated according to the instructions
 [here](https://support.jlcpcb.com/article/44-how-to-export-kicad-pcb-to-gerber-files).
+
+Go into the `pcb/gerber` folder and generate `gerber_plaid.zip` with:
+```bash
+zip -r gerber_plaid.zip plaid/
+```
+and similarity, for `gerber_plaid_bottom.zip`:
+```bash
+zip -r gerber_plaid_bottom.zip plaid_bottom/
+```
 
 ### ArudinoISP
 
@@ -29,7 +41,7 @@ Helpful links:
 
 1. Add the text in this gist's `boards.txt` to the file at 
 `/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/boards.txt`.
-I'm going to refer to this path as just `/avr` from now on.
+I'm going to refer to this path as just `avr` from now on.
 Note that these changes revert whenever the Arduino IDE is updated.
 
 2. Make a new folder called plaid in `avr/bootloaders`
@@ -52,20 +64,21 @@ you may have written to the EEPROM, read-only memory for the microprocessor.
 To reset the EEPROM, enter bootloader mode and run the following commands:
 ```bash
 dfu-programmer atmega328p erase
-dfu-programmer atmega328p flash --eeprom eeprom_reset.hex
+dfu-programmer atmega328p flash --eeprom bootloader/eeprom_reset.hex
 ```
 
-`eeprom_reset.hex` was taken from the
+`bootloader/eeprom_reset.hex` was taken from the
 [QMK toolbox](https://raw.githubusercontent.com/qmk/qmk_toolbox/3d7c9b4c32f1bb7db49e4b0c2a65859fca20bd27/common/atmega32u4_eeprom_reset.hex).
 
 ### Acrylic Guard
-Upload `guard/guard.dxf` to [Ponoko](https://www.ponoko.com/).
+Upload `hardware/guard/guard.dxf` to [Ponoko](https://www.ponoko.com/).
 Recommended material is Clear Impact Modified Acrylic, 2.0mm thick.
 Guard prototype designed by [Udbhav Muthakana](https://github.com/udbhav1),
 polished by [me](https://github.com/stephen-huan).
 
 ### Plate
-Upload `plate/GRID_planck_hipro.dxf` to [SendCutSend](https://sendcutsend.com/).
+Upload `hardware/plate/GRID_planck_hipro.dxf`
+to [SendCutSend](https://sendcutsend.com/).
 Recommended material is 5052 Aluminium, 1.6mm thick.
 DXF file taken from [LaserBoost](https://www.laserboost.com/plates-planck),
 the Planck Grid Hi-Pro plate. The Planck is a different PCB, but the dimensions
@@ -96,18 +109,18 @@ First, insert one 3mm screw from the top of the top PCB, and screw the spacer
 onto it. Then, screw another 3mm screw from the bottom of the bottom PCB into
 the existing spacer and it will fasten.
 
-![side.png](https://github.com/stephen-huan/plaid/blob/master/pictures/side.png?raw=true "Side profile")
+![side.png](https://github.com/stephen-huan/plaid/blob/master/doc/img/side.png?raw=true "Side profile")
 
 ## Pictures
 
 Completed Plaid without acrylic guard or plate, and with an old fuse component.
 Notice the alignment problems (right space is higher than left space,
 "j" key (ま on the Hiragana keycaps) is also higher than its surroundings).
-![plaid.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plaid.png?raw=true "Completed Plaid")
+![plaid.png](https://github.com/stephen-huan/plaid/blob/master/doc/img/plaid.png?raw=true "Completed Plaid")
 Completed Plaid with aluminium plate from SendCutSend
 and acrylic guard from Ponoko. Notice the better alignment and the new fuse.
-![plaid_full.png](https://github.com/stephen-huan/plaid/blob/master/pictures/plaid_full.png?raw=true "Completed Plaid with plate")
+![plaid_full.png](https://github.com/stephen-huan/plaid/blob/master/doc/img/plaid_full.png?raw=true "Completed Plaid with plate")
 Plate fits onto the Plaid PCB although it's a Planck plate!
 Soldered switches.
-![completed.png](https://github.com/stephen-huan/plaid/blob/master/pictures/completed.png?raw=true "Soldered")
+![completed.png](https://github.com/stephen-huan/plaid/blob/master/doc/img/completed.png?raw=true "Soldered")
 
