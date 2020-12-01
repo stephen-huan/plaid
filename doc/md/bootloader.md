@@ -61,7 +61,8 @@ your Arduino uses an atmega32u4. (Tools > Programmer)
 If everything goes well, it should say "Avrdude done. Thank you."
 with no error messages. 
 
-Follow the [instructions](../../plaid/doc/en/bootloader.md)
+Follow the
+[instructions](https://github.com/hsgw/plaid/blob/master/doc/en/bootloader.md)
 in the original Plaid repository from here.
 
 ## EEPROM

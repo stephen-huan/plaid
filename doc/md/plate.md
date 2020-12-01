@@ -23,7 +23,7 @@ opposite direction as the others, because of the PCB design -
 this allows the PCB to support both the grid and MIT layout.
 
 Once all the switches are pressed into the plate, proceed to solder as usual.
-Recommend soldering the four switches at the corners of the plate first
+I recommend soldering the four switches at the corners of the plate first
 to guarantee that the plate is flat and aligned with the PCB. 
 
 [[Video guide]](https://www.youtube.com/watch?v=NNLFTtYiXNg)

@@ -2,7 +2,7 @@
 
 There are two main ways to attach the top PCB to the bottom PCB.
 One is the way described in the Plaid
-[build guide](../../plaid/doc/en/complete.md),
+[build guide](https://github.com/hsgw/plaid/blob/master/doc/en/complete.md),
 which takes advantage of the fact that a M2 nut is 1.6mm high, and so is the
 PCB. Thus, 2 PCB layers and 3 nuts are exactly 5*1.6mm = 8mm high.
 So a 8mm M2 screw inserted from the top of the top PCB, two nuts between it and
