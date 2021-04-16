@@ -10,7 +10,7 @@ the bottom PCB, and then fastened with the final nut will exactly fit.
 However, in my experience, the nuts fall out.
 
 A different way to attach the two PCBs together is with a 3mm spacer.
-2*1.6mm + 3mm = 6.2mm, so the screws have to be less than 3mm long.
+2*1.6mm + 3mm = 6.2mm, so the screws have to be less than 3.1mm long.
 See the below photo for how the setup works.
 First, insert one 3mm screw from the top of the top PCB, and screw the spacer
 onto it. Then, screw another 3mm screw from the bottom of the bottom PCB into
