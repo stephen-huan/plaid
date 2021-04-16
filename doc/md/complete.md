@@ -11,12 +11,11 @@ However, in my experience, the nuts fall out.
 
 A different way to attach the two PCBs together is with a 3mm spacer.
 2*1.6mm + 3mm = 6.2mm, so the screws have to be less than 3.1mm long.
-See the below photo for how the setup works.
 First, insert one 3mm screw from the top of the top PCB, and screw the spacer
 onto it. Then, screw another 3mm screw from the bottom of the bottom PCB into
 the existing spacer and it will fasten.
 
-![side](../img/side.png)
+![screw_a](../img/screw_a.png)
 
 To install the acrylic guard, use an 8mm screw instead of a 3mm screw going
 from the bottom PCB to the top PCB, and simply screw the 10mm spacers onto
@@ -25,4 +24,6 @@ sure the rounded corners are at the top left and right. Screw 4 8mm screws
 downwards, securing the acrylic guard. I recommend half-screwing each screw into
 its spacer first, to make sure all screws can go in, and then fully screwing
 all four screws after they are all in place.
+
+![screw_b](../img/screw_b.png)
 
