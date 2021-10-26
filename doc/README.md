@@ -12,9 +12,8 @@ first.
 4. [Order a plate](./md/plate.md)
 5. [Solder the PCB](https://github.com/hsgw/plaid/blob/master/doc/en/soldering.md)
 6. [Flash the bootloader with ArduinoISP](./md/bootloader.md)
-7. [Write QMK firmware](https://github.com/hsgw/plaid/blob/master/doc/en/firmware.md),
-you can use my personal
-[keymap](https://github.com/qmk/qmk_firmware/tree/master/keyboards/dm9records/plaid/keymaps/stephen-huan) 
+7. [Write QMK firmware](./md/firmware.md), you can use my personal
+[keymap](https://github.com/stephen-huan/keyboard-firmware/blob/master/keyboards/dm9records/plaid/keymaps/stephen-huan/keymap.c)
 for inspiration
 8. [Solder switches into the plate](./md/plate.md)
 9. [Putting it all together](./md/complete.md)
