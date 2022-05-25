@@ -19,6 +19,6 @@ zip -r gerber_plaid_bottom.zip plaid_bottom/
 Use these settings when ordering:
 - PCB thickness: 1.6mm
 - Surface finish: HASL (with lead) [can change according to preference]
-- Remove order number 
-- PCB color: white looks nice 
+- Remove order number
+- PCB color: white looks nice
 

@@ -6,7 +6,7 @@ Helpful links:
 (to get fuse data)
 - [USBasploader](https://github.com/hsgw/USBaspLoader/commit/f7dad45af2a087508cf0997fa31f198fc984535f#diff-50b43beb78bd903d7be28c4bc2f0f4db)
 (the actual bootloader data, save as `plaid.hex`)
-- [QMK documentation](https://docs.qmk.fm/#/) 
+- [QMK documentation](https://docs.qmk.fm/#/)
 - [Plaid keyboard instructions](https://github.com/hsgw/plaid/blob/master/doc/en/bootloader.md)
 
 ## Steps
@@ -15,7 +15,7 @@ Helpful links:
 
 ### Setting up the Arduino IDE
 
-1. Add the text from `bootloader/boards.txt` to the file at 
+1. Add the text from `bootloader/boards.txt` to the file at
 `/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/boards.txt`.
 I'm going to refer to this path as just `avr` from now on.
 Note that these changes revert whenever the Arduino IDE is updated.
@@ -59,7 +59,7 @@ your Arduino uses an atmega32u4. (Tools > Programmer)
 3. Press the "Burn Bootloader" button (Tools > Burn Bootloader)
 
 If everything goes well, it should say "Avrdude done. Thank you."
-with no error messages. 
+with no error messages.
 
 Follow the
 [instructions](https://github.com/hsgw/plaid/blob/master/doc/en/bootloader.md)
@@ -74,6 +74,11 @@ To reset the EEPROM, enter bootloader mode and run the following commands:
 ```bash
 dfu-programmer atmega328p erase
 dfu-programmer atmega328p flash --eeprom bootloader/eeprom_reset.hex
+```
+
+Or with `avrdude`:
+```
+avrdude -p m328p -c usbasp -U eeprom:w:bootloader/eeprom_reset.hex
 ```
 
 `bootloader/eeprom_reset.hex` was taken from the

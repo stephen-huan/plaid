@@ -1,4 +1,4 @@
-# BOM 
+# BOM
 
 ## Included in Plaid kit
 |        | Ref         | Qty | Value       | Description                                 | Vendor                                                              |
@@ -27,7 +27,7 @@
 
 ## Mounting strategies
 
-Original Plaid strategy (if not using acrylic guard, don't need the 4 spacers): 
+Original Plaid strategy (if not using acrylic guard, don't need the 4 spacers):
 | Ref    | Qty | Value    | Vendor                                         |
 |--------|-----|----------|------------------------------------------------|
 | Screw  | 14  | M2   8mm | [Amazon](https://www.amazon.com/dp/B000NHXO1M) |
